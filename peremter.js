@@ -21,8 +21,23 @@
 // square(10);
 // square(7);
 // square(12);
-function add(num) {
-  const shila = num * num;
-  console.log(shila);
+// function add(num) {
+//   const shila = num * num;
+//   console.log(shila);
+// }
+// add(5);
+// add(54);
+// add(22);
+// add(33);
+// add(57);
+function annual(shift1, shift2) {
+  console.log(shift1, shift2);
+  const moveon = shift1 * shift2;
+  const moveon1 = shift1 + shift2;
+  const moveon2 = shift1 - shift2;
+  console.log(moveon);
+  console.log(moveon1);
+  console.log(moveon2);
 }
-add(5);
+annual(3, 5);
+// ekhane asikhlam function ,,ekhane first a function declear kri thn fuction call kri,,ar baki xmpl dewa ache,,dkhle mone porbe,,github e post krbo
