@@ -3,3 +3,5 @@ function name1(num) {
   return shila;
 }
 name1(2);
+const reused = name1(2);
+console.log(reused);
