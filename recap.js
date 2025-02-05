@@ -1,7 +1,7 @@
-function doubleId(number) {
-  const double = number * 4;
-  console.log(double);
-  const tripple = number + 456;
-  console.log(tripple);
+function cityNo(num) {
+  const Dhaka = num * 3;
+  return Dhaka;
 }
-doubleId(45);
+cityNo(45);
+const reuse = cityNo(45);
+console.log("output is:", reuse);
