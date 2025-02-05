@@ -5,3 +5,4 @@ function cityNo(num) {
 cityNo(45);
 const reuse = cityNo(45);
 console.log("output is:", reuse);
+
