@@ -1,0 +1,14 @@
+function math(full2) {
+  if (full2 % 5 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+// math(4, 5);
+const reused = math(32);
+console.log(reused);
+const reused1 = math(43);
+console.log(reused1);
+const reused2 = math(40);
+console.log(reused2);
